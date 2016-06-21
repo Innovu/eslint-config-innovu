@@ -7,7 +7,7 @@ module.exports = {
 	'rules': {
 		// POSSIBLE ERRORS
 		// http://eslint.org/docs/rules/#possible-errors
-		// 'no-console': 2,
+		'no-console': 0,
 		'no-extra-parens': 0,
 		
 		// BEST PRACTICES
