@@ -1,2 +1,3 @@
 # eslint-config-innovu
-ESLint config for Innovu
+
+ESLint config used by [Innovu](https://github.com/Innovu)
