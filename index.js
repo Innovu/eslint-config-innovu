@@ -9,7 +9,7 @@ module.exports = {
 		// http://eslint.org/docs/rules/#possible-errors
 		'no-console': 2,
 		'no-extra-parens': 0,
-		
+
 		// BEST PRACTICES
 		// http://eslint.org/docs/rules/#best-practices
 		'block-scoped-var': 2,
@@ -35,6 +35,7 @@ module.exports = {
 		'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
 		'camelcase': [2, {'properties': 'never'}],
 		'comma-style': 2,
+		'comma-dangle': ['error', 'never'],
 		'consistent-this': [2, 'self'],
 		'eol-last': 0,
 		'func-names': 0,
