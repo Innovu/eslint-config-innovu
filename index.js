@@ -5,6 +5,7 @@ module.exports = {
 		'node': true
 	},
 	'rules': {
+		'array-bracket-spacing': [ 'error', 'always' ],
 		'arrow-spacing': [ 'error', { 'before': true, 'after': true } ],
 		'block-scoped-var': 'error',
 		'brace-style': [ 'error', '1tbs', { 'allowSingleLine': true } ],
@@ -46,6 +47,7 @@ module.exports = {
 		'no-useless-rename': 'error',
 		'no-var': 'error',
 		'no-void': 'error',
+		'object-curly-spacing': [ 'error', 'always' ],
 		'object-shorthand': 'error',
 		'prefer-template': 'off',
 		'quotes': [ 'error', 'single', { 'allowTemplateLiterals': true } ],
