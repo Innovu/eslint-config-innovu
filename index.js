@@ -30,6 +30,7 @@ module.exports = {
 		'no-dupe-class-members': 'error',
 		'no-extra-parens': 'off',
 		'no-lonely-if': 'error',
+		'no-mixed-spaces-and-tabs': 'error',
 		'no-nested-ternary': 'error',
 		'no-new-require': 'error',
 		'no-new-symbol': 'error',
@@ -39,6 +40,7 @@ module.exports = {
 		'no-sync': 'error',
 		'no-this-before-super': 'error',
 		'no-throw-literal': 'error',
+		'no-trailing-spaces': 'error',
 		'no-undefined': 'error',
 		'no-underscore-dangle': 'off',
 		'no-unused-vars': [ 'error', { 'vars': 'all', 'args': 'none' } ],
@@ -64,4 +66,3 @@ module.exports = {
 		'wrap-iife': 'error'
 	}
 };
-
