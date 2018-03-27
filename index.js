@@ -39,6 +39,7 @@ module.exports = {
 		'no-sync': 'error',
 		'no-this-before-super': 'error',
 		'no-throw-literal': 'error',
+		'no-trailing-spaces': 'error',
 		'no-undefined': 'error',
 		'no-underscore-dangle': 'off',
 		'no-unused-vars': [ 'error', { 'vars': 'all', 'args': 'none' } ],
@@ -64,4 +65,3 @@ module.exports = {
 		'wrap-iife': 'error'
 	}
 };
-
