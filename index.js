@@ -30,7 +30,6 @@ module.exports = {
 		'no-dupe-class-members': 'error',
 		'no-extra-parens': 'off',
 		'no-lonely-if': 'error',
-		'no-mixed-spaces-and-tabs': 'error',
 		'no-nested-ternary': 'error',
 		'no-new-require': 'error',
 		'no-new-symbol': 'error',
