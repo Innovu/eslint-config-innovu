@@ -15,7 +15,7 @@ module.exports = {
 		// TODO enable and configure auto lint fixes
 		//'array-bracket-spacing': ['error', 'always'],
 		'space-before-function-paren': 'off',
-		eqeqeq: 'error',
+		eqeqeq: 'off',
 		'no-unused-vars': ['error', { vars: 'all', args: 'none' }],
 		'no-useless-escape': 'off',
 		'no-mixed-spaces-and-tabs': 'off'
