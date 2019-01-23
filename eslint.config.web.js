@@ -16,8 +16,11 @@ module.exports = {
 		mocha: true
 	},
 	rules: {
-		// TODO enable and configure auto lint fixes
-		//'array-bracket-spacing': ['error', 'always'],
+		// TODO: fix these ember warnings
+		'ember/no-restricted-resolver-tests': 'off',
+		'ember/no-side-effects': 'off',
+		'ember/no-observers': 'off',
+
 		'space-before-function-paren': [
 			'error',
 			{
