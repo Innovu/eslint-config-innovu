@@ -1,3 +1,6 @@
-# eslint-config-innovu
+# lens-tooling
 
-ESLint config used by [Innovu](https://github.com/Innovu)
+Tooling used by the [Innovu](https://github.com/Innovu) Lens team
+
+-   [eslint](https://eslint.org/)
+-   [prettier](https://prettier.io/)
