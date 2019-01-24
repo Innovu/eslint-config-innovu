@@ -4,13 +4,5 @@ module.exports = {
 	singleQuote: true,
 	tabWidth: 4,
 	trailingComma: 'none',
-	useTabs: true,
-	overrides: [
-		{
-			files: '*.hbs',
-			options: {
-				parser: 'glimmer'
-			}
-		}
-	]
+	useTabs: true
 };
