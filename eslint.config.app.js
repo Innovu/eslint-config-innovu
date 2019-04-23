@@ -16,9 +16,10 @@ module.exports = {
 		//'array-bracket-spacing': ['error', 'always'],
 		'space-before-function-paren': 'off',
 		eqeqeq: 'off',
-		'no-unused-vars': ['error', { vars: 'all', args: 'none' }],
+		'no-unused-vars': ['error', {vars: 'all', args: 'none'}],
 		'no-useless-escape': 'off',
-		'no-mixed-spaces-and-tabs': 'off'
+		'no-mixed-spaces-and-tabs': 'off',
+		radix: 'error'
 	},
 	overrides: [
 		{

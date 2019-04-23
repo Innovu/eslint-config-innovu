@@ -34,9 +34,10 @@ module.exports = {
 		'arrow-parens': ['error', 'as-needed'],
 		'callback-return': ['error', ['done']],
 		eqeqeq: 'off',
-		'no-unused-vars': ['error', { vars: 'all', args: 'none' }],
+		'no-unused-vars': ['error', {vars: 'all', args: 'none'}],
 		'no-useless-escape': 'off',
-		'no-mixed-spaces-and-tabs': 'off'
+		'no-mixed-spaces-and-tabs': 'off',
+		radix: 'error'
 	},
 	overrides: [
 		// test files
