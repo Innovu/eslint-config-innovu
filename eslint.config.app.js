@@ -19,7 +19,8 @@ module.exports = {
 		'no-unused-vars': ['error', {vars: 'all', args: 'none'}],
 		'no-useless-escape': 'off',
 		'no-mixed-spaces-and-tabs': 'off',
-		radix: 'error'
+		radix: 'error',
+		'dot-notation': 'error'
 	},
 	overrides: [
 		{
