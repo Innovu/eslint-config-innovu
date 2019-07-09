@@ -20,7 +20,8 @@ module.exports = {
 		'no-useless-escape': 'off',
 		'no-mixed-spaces-and-tabs': 'off',
 		radix: 'error',
-		'dot-notation': 'error'
+		'dot-notation': 'error',
+		'require-atomic-updates': 'off'
 	},
 	overrides: [
 		{
