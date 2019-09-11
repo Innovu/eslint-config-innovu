@@ -1,5 +1,6 @@
 module.exports = {
 	extends: ['eslint:recommended'],
+	plugins: ['filenames'],
 	globals: {
 		Promise: true
 	},
@@ -12,16 +13,16 @@ module.exports = {
 		mocha: true
 	},
 	rules: {
-		// TODO enable and configure auto lint fixes
-		//'array-bracket-spacing': ['error', 'always'],
-		'space-before-function-paren': 'off',
+		'dot-notation': 'error',
 		eqeqeq: 'off',
+		'filenames/match-regex': ['error', '^[a-z0-9-]+(_test)?$', true],
+		'no-console': 'error',
+		'no-mixed-spaces-and-tabs': 'off',
 		'no-unused-vars': ['error', {vars: 'all', args: 'none'}],
 		'no-useless-escape': 'off',
-		'no-mixed-spaces-and-tabs': 'off',
 		radix: 'error',
-		'dot-notation': 'error',
-		'require-atomic-updates': 'off'
+		'require-atomic-updates': 'off',
+		'space-before-function-paren': 'off'
 	},
 	overrides: [
 		{
