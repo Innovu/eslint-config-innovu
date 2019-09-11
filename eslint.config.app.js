@@ -15,7 +15,7 @@ module.exports = {
 	rules: {
 		'dot-notation': 'error',
 		eqeqeq: 'off',
-		'filenames/match-regex': ['error', '^[a-z0-9-]+(_test)?$', true],
+		'filenames/match-regex': ['error', '^[a-z0-9-]+(-test)?$', true],
 		'no-console': 'error',
 		'no-mixed-spaces-and-tabs': 'off',
 		'no-unused-vars': ['error', {vars: 'all', args: 'none'}],
