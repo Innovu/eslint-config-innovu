@@ -22,8 +22,7 @@ module.exports = {
 		'no-useless-escape': 'off',
 		radix: 'error',
 		'require-atomic-updates': 'off',
-		'space-before-function-paren': 'off',
-		camelcase: ['error', {properties: 'never', ignoreDestructuring: true}]
+		'space-before-function-paren': 'off'
 	},
 	overrides: [
 		{
@@ -33,8 +32,7 @@ module.exports = {
 				'max-nested-callbacks': [2, 5],
 				'new-cap': 'off',
 				'no-unused-expressions': 'off',
-				'no-sync': 'off',
-				camelcase: 'off'
+				'no-sync': 'off'
 			}
 		}
 	]
