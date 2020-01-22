@@ -33,8 +33,7 @@ module.exports = {
 		'no-useless-escape': 'off',
 		'no-mixed-spaces-and-tabs': 'off',
 		radix: 'error',
-		'dot-notation': 'error',
-		camelcase: ['error', {properties: 'never', ignoreDestructuring: true}]
+		'dot-notation': 'error'
 	},
 	overrides: [
 		// test files
@@ -45,9 +44,6 @@ module.exports = {
 			globals: {
 				server: true,
 				should: true
-			},
-			rules: {
-				camelcase: 'off'
 			}
 		},
 		// enable async/await only for tests
