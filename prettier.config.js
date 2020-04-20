@@ -5,7 +5,6 @@ module.exports = {
 	tabWidth: 4,
 	trailingComma: 'none',
 	useTabs: true,
-	arrowParens: 'avoid',
 	overrides: [
 		{
 			files: '*.hbs',
