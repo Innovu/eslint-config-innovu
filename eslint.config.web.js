@@ -7,9 +7,9 @@ module.exports = {
 		ecmaVersion: 2018,
 		sourceType: 'module',
 		allowImportExportEverywhere: true,
-    ecmaFeatures: {
-      legacyDecorators: true
-    }
+		ecmaFeatures: {
+			legacyDecorators: true
+		}
 	},
 	plugins: ['ember'],
 	env: {
@@ -21,15 +21,8 @@ module.exports = {
 	},
 	extends: ['eslint:recommended', 'plugin:ember/recommended'],
 	rules: {
-		'space-before-function-paren': [
-			'error',
-			{
-				asyncArrow: 'always',
-				anonymous: 'never',
-				named: 'never'
-			}
-		],
-		'arrow-parens': ['error', 'as-needed'],
+		'space-before-function-paren': 'off',
+		'arrow-parens': 'off',
 		'callback-return': ['error', ['done']],
 		eqeqeq: 'off',
 		'no-console': 'error',
@@ -42,32 +35,32 @@ module.exports = {
 	overrides: [
 		// node files
 		{
-      files: [
-        '.eslintrc.js',
-        '.template-lintrc.js',
-        'ember-cli-build.js',
-        'testem.js',
-        'blueprints/*/index.js',
-        'config/**/*.js',
-        'lib/*/index.js',
-        'server/**/*.js'
-      ],
-      parserOptions: {
-        sourceType: 'script'
-      },
-      env: {
-        browser: false,
-        node: true
-      },
-      plugins: ['node'],
-      rules: Object.assign({}, require('eslint-plugin-node').configs.recommended.rules, {
-        // add your custom rules and overrides for node files here
+			files: [
+				'.eslintrc.js',
+				'.template-lintrc.js',
+				'ember-cli-build.js',
+				'testem.js',
+				'blueprints/*/index.js',
+				'config/**/*.js',
+				'lib/*/index.js',
+				'server/**/*.js'
+			],
+			parserOptions: {
+				sourceType: 'script'
+			},
+			env: {
+				browser: false,
+				node: true
+			},
+			plugins: ['node'],
+			rules: Object.assign({}, require('eslint-plugin-node').configs.recommended.rules, {
+				// add your custom rules and overrides for node files here
 
-        // this can be removed once the following is fixed
-        // https://github.com/mysticatea/eslint-plugin-node/issues/77
-        'node/no-unpublished-require': 'off'
-      })
-    },
+				// this can be removed once the following is fixed
+				// https://github.com/mysticatea/eslint-plugin-node/issues/77
+				'node/no-unpublished-require': 'off'
+			})
+		},
 		// test files
 		{
 			files: ['tests/**/*.js'],
