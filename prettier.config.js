@@ -5,12 +5,13 @@ module.exports = {
 	tabWidth: 4,
 	trailingComma: 'none',
 	useTabs: true,
-	"overrides": [
-   	{
-      "files": "*.hbs",
-      "options": {
-        "singleQuote": false
-      }
-    }
-  ]
+	arrowParens: 'avoid',
+	overrides: [
+		{
+			files: '*.hbs',
+			options: {
+				singleQuote: false
+			}
+		}
+	]
 };
